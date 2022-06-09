@@ -1,1 +1,10 @@
+.title {
+  text-align: center;
+  font-size:100px;
+  background-color: skyblue;
+}
+
+.greeting {
+  font-size: 32px;
+}
 
