@@ -1,0 +1,23 @@
+.naslov {
+  text-align: center;
+  font-family: monospace;
+  }
+
+  .podnaslov {
+    text-align: center;
+    font-family: monospace;
+  }
+
+table, th, td {
+  font-family: monospace;
+  line-height: 20px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: floralwhite;
+  margin-bottom: 10%
+  }
+
+ body {
+   background-color: honeydew;
+ }
