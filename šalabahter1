@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <link rel="stylesheet" href="styles.css">
+   <title> Cheatsheet </title>
+
+    </head>
+     <body>
+
+   <h1 class="naslov"> HTML komande za tablice i ostalo </h1>
+    <h2 class="podnaslov"> Šalabahter </h2>
+
+   <table>
+    <thead> 
+     
+     <tr> 
+      <th> Oznaka </th>
+      <th> Ime naredbe </th>
+      <th> Objašnjenje </th>
+     </tr>
+
+    </thead>
+     <tbody>
+       <tr> 
+        <td> &lt;table&gt; </td>
+        <td> Tablica </td>
+        <td> Komanda koja stvara tablicu  </td>
+       </tr>
+
+       <tr>
+        <td> &lt;thead&gt; </td>
+        <td> Vrh tablice </td>
+        <td> Vrhovi stupaca u kojima se naznačavaju neki podaci </td>
+        </tr>
+
+       <tr>
+        <td> &lt;tbody&gt; </td>
+        <td> Tijelo tablice </td>
+        <td> Stvaraju se horizontalni redovi u kojima se nalaze podaci </td>
+       </tr>
+
+       <tr>
+        <td> &lt;tr&gt; </td>
+        <td> Vertikalni red tablice </td>
+        <td> Stvara se kućica u koju se unose podaci </td>
+       </tr>
+
+       <tr>
+        <td> &lt;td&gt; </td>
+        <td> Podaci </td>
+        <td> Podaci koji popunjavaju tablicu sa lijeve na desno po stupcima </td>
+       </tr>
+
+       <tr>
+        <td> &lt;tfoot&gt; </td>
+        <td> Podnožje tablice </td>
+        <td> Prostor u koji se unose finalni podaci, npr rezultati, zbrojevi i sl. </td>
+       </tr>
+     </tbody>
+    </table>
+
+<table>
+  <thead>
+    <tr> 
+      <th>Atribut </th>
+      <th> Ime </th>
+      <th> Opis </th>
+      </tr>
+    </thead>
+    
+    <tr> 
+      <td> colspan </td>
+      <td> Raspon stupaca </td>
+      <td> Pomiče koliko stupac obuhvaća redova horizontalno</td>
+    </tr>
+
+    <tr>
+      <td> rowspan </td>
+      <td> Raspon redova </td>
+      <td> Pomiče koliko vertikalnih redova obuhvaća jedna ćelija </td>
+      </tr>
+
+
+
+
+
+    </table>
+
+ </body>
+</html>
